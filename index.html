@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hamburgers.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <style>
+        *{
+          /* font-family: sans-serif; */
+          font-family: 'Josefin Sans', sans-serif;
+        }
+        .cd-timeline__img--picture{
+          background-color: #ff5101;
+        }
+
+        body{
+          background-color: #a5a2a2;
+        }
+
+        h1{
+            font-size: 80px;
+        }
+        .cd-timeline{
+          background-color: #a5a2a2;
+        }
+    
+        .cd-timeline__container::before{
+          background: #fff;
+        }
+    
+        .cd-timeline__content{
+          box-shadow: 0 3px 3 #fff;
+          box-shadow: none;
+        }
+    
+        .cd-timeline__content h2{
+            color: #ff5101;
+        }
+        .color-contrast-medium{
+            color: #222;
+         }
+        .cd-timeline__date{
+          color: #222;
+        } 
+      </style>
+</head>
+
+<body id="body">
+    <div class="header-inner">
+        <header>
+            <div class="txt-box">
+                <h1>
+                    <span>P</span>
+                    <span>O</span>
+                    <span>r</span>
+                    <span>t</span>
+                    <span>F</span>
+                    <span>O</span>
+                    <span>l</span>
+                    <span>i</span>
+                    <span>O</span>
+                </h1>
+            </div>
+                <p>木村命美のPORTFOLIOへようこそ!</p>
+        </header>
+    </div>
+
+    <p class="hamburger hamburger--spring" id="btn">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </p>
+
+    <nav id="g-nav">
+        <ul class="page-list">
+            <li><a href="#top">TOP<span>トップ</span></a></li>
+            <li><a href="#about">ABOUT<span>自己紹介</span></a></li>
+            <li><a href="#skill">SKILL<span>できること</span></a></li>
+            <li><a href="#works">WORKs<span>作品</span></a></li>
+        </ul>
+
+        <ul class="sns">
+            <li><a href="#"><img src="img/instagram-brands.svg" alt=""></a></li>
+            <li><a href="#"><img src="img/twitter-brands.svg" alt=""></a></li>
+            <li><a href="#"><img src="img/codepen-brands.svg" alt=""></a></li>
+        </ul>
+    </nav>
+
+    <div id="about" class="content">
+        <h2>ABOUT</h2>
+        <div class="intro">
+
+            <img src="img/kimu.png" alt="自己紹介画像">
+
+        <p>木村 命美（きむら めいみ）と申します。<br>
+           趣味はアクセサリー作りとインポートのランジェリーSHOP巡り、<br>
+           特技は50音から始まることわざが瞬時に言えることです。<br>
+           よろしくお願いいたします。</p>
+
+           <p><a href="bra/index2.html">ニューヨーク本店のVS(ランジェリーブランド)へ前に行った時の写真をまとめました。</a></p>
+
+        </div>
+      
+        <div class="cd-timeline js-cd-timeline">
+          <div class="container max-width-lg cd-timeline__container">
+          
+          
+          <div class="cd-timeline__block">
+          <div class="cd-timeline__img cd-timeline__img--picture">
+          <img src="img/school.svg" alt="Picture">
+          </div> <!-- cd-timeline__img -->
+          
+          <div class="cd-timeline__content text-component">
+          <h2>福岡出身、香川育ち</h2>
+          <p class="color-contrast-medium">高校ではチアリーダー部の部長を務め、<br>
+          チームのまとめ役に徹しました。<br>
+          古豪復活、1学年下の代が甲子園出場！</p>
+          <div class="flex justify-between items-center">
+          <span class="cd-timeline__date">1997-2015</span>
+          </div>
+          </div> <!-- cd-timeline__content -->
+          </div> <!-- cd-timeline__block -->
+          
+          
+      
+          <div class="cd-timeline__block">
+          <div class="cd-timeline__img cd-timeline__img--picture">
+          <img src="img/fashion.svg" alt="Picture">
+          </div> <!-- cd-timeline__img -->
+        
+          <div class="cd-timeline__content text-component">
+          <h2>高校卒業後、東京都の<br>
+            日本外国語専門学校に入学</h2>
+          <p class="color-contrast-medium">小学校の頃から海外の文化やトレンドに興味があったため、<br>
+          そういったファッションや語学が学べる学校に入学しました。<br>
+          ここで色彩検定やパーソナルカラー検定を取得しました。</p>
+          <div class="flex justify-between items-center">
+          <span class="cd-timeline__date">2016-2018</span>
+          </div>
+          </div> <!-- cd-timeline__content -->
+          </div> <!-- cd-timeline__block -->
+      
+      
+          <div class="cd-timeline__block">
+            <div class="cd-timeline__img cd-timeline__img--picture">
+            <img src="img/lingelie.svg" alt="Picture">
+            </div> <!-- cd-timeline__img -->
+            
+            <div class="cd-timeline__content text-component">
+            <h2>ランジェリー販売員として<br>
+              新宿店に就職</h2>
+            <p class="color-contrast-medium">目標であったランジェリー販売員に就職。<br>
+            インティメイトアドバイザーの資格も取り、ランジェリーについてより深く学ぶことができました。
+            </p>
+            <div class="flex justify-between items-center">
+            <span class="cd-timeline__date">2018-2021</span>
+            </div>
+            </div> <!-- cd-timeline__content -->
+            </div> <!-- cd-timeline__block -->
+      
+      
+      
+            <div class="cd-timeline__block">
+              <div class="cd-timeline__img cd-timeline__img--picture">
+              <img src="img/pc.svg" alt="Picture">
+              </div> <!-- cd-timeline__img -->
+              
+              <div class="cd-timeline__content text-component">
+              <h2>フェリカテクニカルアカデミー入校</h2>
+              <p class="color-contrast-medium">海外の文化やランジェリーが大好きなのですが<br>
+              それと同じくらいWEB関係のことにもとても関心があり、<br>
+              WEBのことを詳しく学ぶためフェリカ学校に入校いたしました。<br>
+              学習内容は難しかったですが、WEBのお仕事に携わりたい気持ちは日に日に大きくなっていきました。
+              </p>
+              <div class="flex justify-between items-center">
+              <span class="cd-timeline__date">2021.11-2022.1</span>
+              </div>
+              </div> <!-- cd-timeline__content -->
+              </div> <!-- cd-timeline__block -->
+          
+          
+          </div><!-- container -->
+          </div><!-- cd-timeline -->
+      
+
+
+<div id="skill" class="content">
+    <h2>SKILL</h2>
+    <p>ここではこの学校で学んだスキルを生かして作ったバナーをご紹介します。</p>
+
+    <div class="m-column">
+      <ul>
+       <li>
+        <p class="image"><a href="img/inv1.png" data-lightbox
+        ="test"><img src="img/inv_chibi.jpg" alt="バナー画像1"></a></p>
+        <p class="text">
+         展示会のインビテーションのバナーです。<br>
+         そのブランドロゴであるキャラクターを<br>
+         ランダムに配置して華やかで記憶に残るような<br>
+         バナーにしました。
+        </p>    
+       </li>
+
+       <li>
+        <p class="image"><a href="img/jacket.png" data-lightbox
+        ="test"><img src="img/jacket_chibi.jpg" alt="バナー画像"></a></p>
+        <p class="text">
+         ジャケットが有名なアパレルブランド風の<br>
+         バナーです。モデルやジャケットが綺麗に<br>
+         映えるように、そのブランドの雰囲気や<br>
+         コンセプトが分かりやすいように作成しました。
+        </p>    
+    </li>
+    
+    <li>
+        <p class="image"><a href="img/english.png" data-lightbox
+        ="test"><img src="img/english_chibi.jpg" alt="バナー画像"></a></p>
+        <p class="text">
+         英会話教室のキャンペーンバナーです。<br>
+         可愛い人形の写真を使って大人からこどもまで<br>
+         分かりやすいように作成しました。<br>
+         
+        </p>    
+       </li>
+       
+       <li>
+           <p class="image"><a href="img/choco.png" data-lightbox
+            ="test"><img src="img/choco_chibi.jpg" alt="バナー画像3"></a></p>
+            <p class="text">
+                バレンタインフェアのバナーです。<br>
+                美味しそう・買ってみたい！と思ってもらえるように<br>
+                実際にそのお店で販売しているチョコレートの写真を<br>
+                使用しました。（写真はフリー画像です）
+            </p>    
+        </li>
+        
+       <li>
+           <p class="image"><a href="img/business.png" data-lightbox
+        ="test"><img src="img/business_chibi.png" alt="バナー画像4"></a></p>
+        <p class="text">
+         生命保険のバナーです。<br>
+         AIでできるということと、自宅でできるという<br>
+         特徴をシンプルに分かりやすく表現しました。
+        </p>    
+    </li>
+
+    <li>
+     <p class="image"><a href="img/sale.jpg" data-lightbox
+     ="test"><img src="img/sale_chibi.jpg" alt="バナー画像2"></a></p>
+     <p class="text">
+      ショッピングモールのSALEのバナーです。<br>
+      SALEの楽しい雰囲気を出したかったのと<br>
+      いろんな人がお得な情報を見逃さないように題名や<br>
+      日にちを大きめに、派手な色を使って表現しました。
+     </p>    
+    </li>
+
+
+     </ul>
+  </div> <!-- m-column -->
+</div> <!-- skill-content -->
+    
+    <div id="works" class="content">
+        <h2>WORKs</h2>
+        <p>私が作っているアクセサリーたちを、<br>
+            カラムにしてまとめてみました。この他にもたくさんあります!</p>
+
+        <div class="accessory">
+            <h3>💛 My Accessories 💛</h3>
+        
+        <div class="column-wrapper">
+
+            <div class="column-box">
+                <div class="column-inner">
+                    <h2>Perl necklace White</h2>
+                    <p class="photo">
+                        <a href="img/aberia.jpg" data-lightbox="column">
+                            <img src="img/aberia.jpg" alt="画像">
+                    </a></p>
+                    <p class="txt">ホワイトとパープルのパールを使用して作ったネックレスです。</p>
+                </div> <!-- column-inner -->
+            </div> <!-- column-box -->
+    
+            <div class="column-box">
+                <div class="column-inner">
+                    <h2>Perl necklace Pink</h2>
+                    <p class="photo">
+                        <a href="img/otometsubaki.jpg" data-lightbox="column">
+                            <img src="img/otometsubaki.jpg" alt="画像">
+                    </a></p>
+                    <p class="txt">ピンクとパープルのパールを使用して作ったネックレスです。</p>
+                </div> <!-- column-inner -->
+            </div> <!-- column-box -->
+    
+            <div class="column-box">
+                <div class="column-inner">
+                    <h2>Perl necklace White</h2>
+                    <p class="photo">
+                        <a href="img/pink_cardigan.jpg" data-lightbox="column">
+                            <img src="img/pink_cardigan.jpg" alt="画像">
+                    </a></p>
+                    <p class="txt">着用画像。短めのつくりです♡White着用</p>
+                </div> <!-- column-inner -->
+            </div> <!-- column-box -->
+    
+            <div class="column-box">
+                <div class="column-inner">
+                    <h2>Perl long necklace</h2>
+                    <p class="photo">
+                        <a href="img/perllong.jpg" data-lightbox="column">
+                            <img src="img/perllong.jpg" alt="画像">
+                    </a></p>
+                    <p class="txt">淡水パールを使用した艶と高級感のあるパールネックレス。</p>
+                </div> <!-- column-inner -->
+            </div> <!-- column-box -->
+    
+            <div class="column-box">
+                <div class="column-inner">
+                    <h2>Perl & Chain necklace</h2>
+                    <p class="photo">
+                        <a href="img/clear.jpg" data-lightbox="column">
+                            <img src="img/clear.jpg" alt="画像">
+                    </a></p>
+                    <p class="txt">パール（大）とSilver925を使用したネックレスです。</p>
+                </div> <!-- column-inner -->
+            </div> <!-- column-box -->
+    
+            <div class="column-box">
+                <div class="column-inner">
+                    <h2>SWAROVSKI & Perl necklace</h2>
+                    <p class="photo">
+                        <a href="img/ruby_necklace.jpg" data-lightbox="column">
+                            <img src="img/ruby_necklace.jpg" alt="画像">
+                    </a></p>
+                    <p class="txt">深みのある真っ赤なSWAROVSKI（スワロフスキー）と、2色のパールを使用した高級感のあるネックレスです。</p>
+                </div> <!-- column-inner -->
+            </div> <!-- column-box -->
+
+            <div class="column-box">
+                <div class="column-inner">
+                    <h2>Beads necklace</h2>
+                    <p class="photo">
+                        <a href="img/summer.jpg" data-lightbox="column">
+                            <img src="img/summer.jpg" alt="画像">
+                    </a></p>
+                    <p class="txt">去年から流行りのカラフルなビーズネックレス。</p>
+                </div> <!-- column-inner -->
+            </div> <!-- column-box -->
+    
+            <div class="column-box">
+                <div class="column-inner">
+                    <h2>Import Flower pierce</h2>
+                    <p class="photo">
+                        <a href="img/ohana_pierce.jpg" data-lightbox="column">
+                            <img src="img/ohana_pierce.jpg" alt="画像">
+                    </a></p>
+                    <p class="txt">大きなお花のパーツは輸入品です。服が適当な日にはこちらのピアスがおススメです。</p>
+                </div> <!-- column-inner -->
+            </div> <!-- column-box -->
+    
+            <div class="column-box">
+                <div class="column-inner">
+                    <h2>Import Charm pierce</h2>
+                    <p class="photo">
+                        <a href="img/heart_shell.jpg" data-lightbox="column">
+                            <img src="img/heart_shell.jpg" alt="画像">
+                    </a></p>
+                    <p class="txt">海外輸入の貝殻チャームを使用したピアス。今なら20％OFF！</p>
+                </div> <!-- column-inner -->
+            </div> <!-- column-box -->
+    
+            <div class="column-box">
+                <div class="column-inner">
+                    <h2>Heart Beads ring</h2>
+                    <p class="photo">
+                        <a href="img/heart_ring_hand.jpg" data-lightbox="column">
+                            <img src="img/heart_ring_hand.jpg" alt="画像">
+                    </a></p>
+                    <p class="txt">ハンドメイドのハートリングです。</p>
+                </div> <!-- column-inner -->
+            </div> <!-- column-box -->
+    
+            <div class="column-box">
+                <div class="column-inner">
+                    <h2>Knit ring</h2>
+                    <p class="photo">
+                        <a href="img/coleful.jpg" data-lightbox="column">
+                            <img src="img/coleful.jpg" alt="画像">
+                    </a></p>
+                    <p class="txt">いろんな色のビーズを編み込んで作ったハンドメイドのリングです。</p>
+                </div> <!-- column-inner -->
+            </div> <!-- column-box -->
+    
+            <div class="column-box">
+                <div class="column-inner">
+                    <h2>Hair clip Pinkbeige</h2>
+                    <p class="photo">
+                        <a href="img/pinkbeige.jpg" data-lightbox="column">
+                            <img src="img/pinkbeige.jpg" alt="画像">
+                    </a></p>
+                    <p class="txt">牛柄の大きなヘアクリップです。普段のまとめ髪に少しアクセントを入れるだけで気分も変わります。</p>
+                </div> <!-- column-inner -->
+            </div> <!-- column-box -->
+    
+            <div class="column-box">
+                <div class="column-inner">
+                    <h2>Hair clip Lightgreen</h2>
+                    <p class="photo">
+                        <a href="img/ushi_lightgreen.jpg" data-lightbox="column">
+                            <img src="img/ushi_lightgreen.jpg" alt="画像">
+                    </a></p>
+                    <p class="txt">牛柄の大きなヘアクリップです。ピンクベージュとの2色でご用意しております♪</p>
+                </div> <!-- column-inner -->
+            </div> <!-- column-box -->
+    
+            <div class="column-box">
+                <div class="column-inner">
+                    <h2>Hair pin Monoqlo</h2>
+                    <p class="photo">
+                        <a href="img/ushi_monoqlo.jpg" data-lightbox="column">
+                            <img src="img/ushi_monoqlo.jpg" alt="画像">
+                    </a></p>
+                    <p class="txt">牛柄×パッションピンクのかわいいピンたちです。こちらは3色でご用意しております。</p>
+                </div> <!-- column-inner -->
+            </div> <!-- column-box -->
+    
+            <div class="column-box">
+                <div class="column-inner">
+                    <h2>Hair pin Blue</h2>
+                    <p class="photo">
+                        <a href="img/ushi_blue.jpg" data-lightbox="column">
+                            <img src="img/ushi_blue.jpg" alt="画像">
+                    </a></p>
+                    <p class="txt">ブルー牛×キラキラホワイト</p>
+                </div> <!-- column-inner -->
+            </div> <!-- column-box -->
+    
+            <div class="column-box">
+                <div class="column-inner">
+                    <h2>Hair pin Pink</h2>
+                    <p class="photo">
+                        <a href="img/ushi_pink.jpg" data-lightbox="column">
+                            <img src="img/ushi_pink.jpg" alt="画像">
+                    </a></p>
+                    <p class="txt">ピンク牛×キラキラホワイト</p>
+                </div> <!-- column-inner -->
+            </div> <!-- column-box -->
+    
+            <div class="column-box">
+                <div class="column-inner">
+                    <h2>Musk chain MEN's</h2>
+                    <p class="photo">
+                        <a href="img/rio2.jpg" data-lightbox="column">
+                            <img src="img/rio2.jpg" alt="画像">
+                    </a></p>
+                    <p class="txt">オーダーメイド、ご希望に沿ったアクセサリーもお作りいたします。</p>
+                </div> <!-- column-inner -->
+            </div> <!-- column-box -->
+    
+            <div class="column-box">
+                <div class="column-inner">
+                    <h2>♡♡♡</h2>
+                    <p class="photo">
+                        <a href="img/rio1.jpg" data-lightbox="column">
+                            <img src="img/rio1.jpg" alt="画像">
+                    </a></p>
+                    <p class="txt">着用画像</p>
+                </div> <!-- column-inner -->
+            </div> <!-- column-box -->
+    
+            <div class="column-box">
+                <div class="column-inner">
+                    <h2>Shopcard</h2>
+                    <p class="photo">
+                        <a href="img/shopcard.jpg" data-lightbox="column">
+                            <img src="img/shopcard.jpg" alt="画像">
+                    </a></p>
+                    <p class="txt">気になる方は是非、checkしてください。よろしくお願いします♪</p>
+                </div> <!-- column-inner -->
+            </div> <!-- column-box -->
+    
+        </div> <!-- column-wrapper -->
+    
+     </div> <!-- accessory -->    
+    </div> <!-- works -->
+
+    <footer>
+        <p><small>&copy; 2021-<span id="full year"></span> Meimi Kimura - Portflio</small></p>
+    </footer>
+    <script>
+        let today = new Date();
+        console.log(today);
+        let thisYear = today.getFullYear(); /* 年だけGET */
+
+        document.getElementById('full year').innerHTML = thisYear;
+    </script> <!-- 西暦 -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/timeline.js"></script>
+    
+</body>
+</html>
